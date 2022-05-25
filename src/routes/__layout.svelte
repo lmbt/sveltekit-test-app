@@ -7,19 +7,19 @@
     <Content>
       <List>
         <Item
-          href="/"
+          href="{base}/"
         >
           <IconButton class="material-icons">home</IconButton>
           <Text>Home</Text>
         </Item>
         <Item
-          href="/create"
+          href="{base}/create"
         >
           <IconButton class="material-icons">note_add</IconButton>
           <Text>Create</Text>
         </Item>
         <Item
-          href="/view"
+          href="{base}/view"
         >
           <IconButton class="material-icons">note</IconButton>
           <Text>View</Text>
@@ -47,6 +47,7 @@
   import List, { Item, Text } from '@smui/list'
   import IconButton from '@smui/icon-button'
   import PageTransition from '../components/PageTransition.svelte'
+  import { base } from '$app/paths'
 </script>
 
 <script context="module" lang="ts">
