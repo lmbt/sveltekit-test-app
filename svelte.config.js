@@ -16,6 +16,9 @@ const config = {
 			fallback: null,
 			precompress: false
 		}),
+		paths: {
+			base: '/sveltekit-test-app'
+		},
 		appDir: 'internal',
 		prerender: {
 			default: true
