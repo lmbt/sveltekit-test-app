@@ -79,7 +79,7 @@
     background-color: rgba(0, 0, 0, 0.04);
   }
   :global(.accordion-content) {
-    height: auto;
+    height: auto !important;
   }
   :global(.accordion-content .smui-accordion__header) {
     display: none !important;
